@@ -1,4 +1,4 @@
-import Hero from "@/components/Hero";
+import CarHero from "@/components/three/CarHero";
 import Marquee from "@/components/Marquee";
 import Section from "@/components/Section";
 import WorkCard from "@/components/WorkCard";
@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div className="font-sans">
-      <Hero />
+      <CarHero />
       <Marquee />
 
       <Section id="work" title="Selected Work" className="mt-16">
